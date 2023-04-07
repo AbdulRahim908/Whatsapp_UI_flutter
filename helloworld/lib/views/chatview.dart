@@ -27,30 +27,7 @@ class ChatView extends StatelessWidget {
               ),
             ),
               floatingActionButton:const CircleAvatar(backgroundColor: Colors.green, child:  Icon(Icons.message_rounded)),
-            // bottomNavigationBar:const CircleAvatar(backgroundColor: Colors.green,backgroundImage: NetworkImage('https://www.shutterstock.com/shutterstock/photos/471643163/display_1500/stock-vector-whatsapp-send-message-to-anyone-icon-web-version-isolated-chat-vector-471643163.jpg'),),
-            // return Scaffold(
-
-            //     appBar: AppBar(title: const Text('WhatsApp'),backgroundColor: Colors.green,
-            //     actions:const  <Widget> [Icon(Icons.camera_alt),Icon(Icons.search),Icon(Icons.more_vert)],
-            //     bottom: Tab(child: Icon(Icons.camera_alt_rounded))
-            // ),
-            // bottom:const TabBar( tabs: [
-            //         Tab(
-            //             iconMargin: EdgeInsets.all(100),
-            //             child: Icon(
-            //               Icons.camera_alt_rounded,
-            //             )),
-            //         Tab(
-            //           child: Text('CHATS', style: TextStyle(color: Colors.white)),
-            //         ),
-            //         Tab(
-            //           child: Text('STATUS', style: TextStyle(color: Colors.white)),
-            //         ),
-            //         Tab(
-            //           child: Text('CALLS', style: TextStyle(color: Colors.white)),
-            //         ),
-            //       ])
-            // ),
+            
 
             body: ListView(children: [
               // customChatWidget("subhan", "mujhe maaf krdo", "1:00 PM",'https://images.unsplash.com/photo-1680169292004-600b69ec7690?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60'),
